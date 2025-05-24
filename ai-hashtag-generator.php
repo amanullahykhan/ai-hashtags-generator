@@ -1,5 +1,5 @@
 <?php
-$api_key = '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';
+$api_key = '<YOUR-API-KEY>';
 $hashtags = '';
 $error = '';
 
