@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 'X-Title: Hashtag Generator'             // App identifier
             ],
             CURLOPT_SSL_VERIFYPEER => true,
-            CURLOPT_CAINFO => 'C:/wamp64/bin/php/php8.3.6/extras/ssl/cacert.pem',
+            CURLOPT_CAINFO => '<YOUR PATH TO LOCAL SERVER>/bin/php/php8.3.6/extras/ssl/cacert.pem',
             CURLOPT_TIMEOUT => 15
         ]);
 
