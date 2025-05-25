@@ -51,14 +51,14 @@ chmod -R 755 logs/
 ```ini
 OPENROUTER_API_KEY=your_api_key_here
 OPENROUTER_ENDPOINT=https://openrouter.ai/api/v1/chat/completions
-CA_BUNDLE_PATH=C:/wamp64/bin/php/php8.3.6/extras/ssl/cacert.pem
+CA_BUNDLE_PATH=<YOUR PATH TO LOCAL SERVER>/bin/php/php8.3.6/extras/ssl/cacert.pem
 ```
 
 ### php.ini Settings
 ```ini
 [curl]
-curl.cainfo = "C:/wamp64/bin/php/php8.3.6/extras/ssl/cacert.pem"
-openssl.cafile = "C:/wamp64/bin/php/php8.3.6/extras/ssl/cacert.pem"
+curl.cainfo = "<YOUR PATH TO LOCAL SERVER>/bin/php/php8.3.6/extras/ssl/cacert.pem"
+openssl.cafile = "<YOUR PATH TO LOCAL SERVER>/bin/php/php8.3.6/extras/ssl/cacert.pem"
 ```
 
 ## Usage
